@@ -11,6 +11,7 @@ class Anagram
       if @word.split("").sort == anagram.split("").sort
         ana_arr << anagram
       end
+    end
     return ana_arr
     end
   end
