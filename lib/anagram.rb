@@ -7,7 +7,7 @@ class Anagram
 
   def match(array)
     array.each do |anagram|
-      if @word.chars.sort(&:casecmp).join == chars.sort(&:casecmp).join
+      if @word.chars.sort(&:casecmp).join == anagram.chars.sort(&:casecmp).join
         return true
       else
         false
