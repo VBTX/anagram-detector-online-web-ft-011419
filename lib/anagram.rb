@@ -10,7 +10,7 @@ class Anagram
     array.each do |anagram|
       if @word.chars.sort(&:casecmp).join == anagram.chars.sort(&:casecmp).join
         newArr << anagram
-        newArr
+      
       end
     newArr
     end
