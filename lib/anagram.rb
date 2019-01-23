@@ -15,6 +15,3 @@ class Anagram
     return ana_arr
     end
   end
-
-
-end
