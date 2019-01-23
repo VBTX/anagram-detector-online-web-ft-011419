@@ -10,9 +10,11 @@ class Anagram
     array.each do |anagram|
       if @word.chars.sort.join == anagram.chars.sort.join
         newArr << anagram
+      else
+        return newArr
 
       end
-    newArr
+    return newArr
     end
   end
 
