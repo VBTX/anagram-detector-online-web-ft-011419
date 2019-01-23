@@ -10,9 +10,6 @@ class Anagram
     array.each do |anagram|
       if @word.split("").sort == anagram.split("").sort
         ana_arr << anagram
-      else
-        ana_arr
-
       end
     return ana_arr
     end
