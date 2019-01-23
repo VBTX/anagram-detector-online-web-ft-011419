@@ -12,7 +12,7 @@ class Anagram
         newArr << anagram
         newArr
       end
-      return newArr
+    newArr
     end
   end
 
