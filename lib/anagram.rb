@@ -11,7 +11,7 @@ class Anagram
       if @word.chars.sort.join == anagram.chars.sort.join
         newArr << anagram
       else
-        return newArr
+        newArr
 
       end
     return newArr
