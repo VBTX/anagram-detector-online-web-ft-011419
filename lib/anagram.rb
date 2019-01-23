@@ -6,15 +6,15 @@ class Anagram
   end
 
   def match(array)
-    newArr = []
+    ana_arr = []
     array.each do |anagram|
       if @word.split("") == anagram.split("")
-        newArr << anagram
+        ana_arr << anagram
       else
-        newArr
+        ana_arr
 
       end
-    return newArr
+    return ana_arr
     end
   end
 
