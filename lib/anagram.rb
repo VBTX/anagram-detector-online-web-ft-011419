@@ -14,7 +14,7 @@ class Anagram
         ana_arr
 
       end
-    return ana_arr
+    ana_arr
     end
   end
 
